@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2129E34124EE750F00904266 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2129E34024EE750F00904266 /* AppDelegate.m */; };
+		2129E34424EE750F00904266 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2129E34324EE750F00904266 /* SceneDelegate.m */; };
+		2129E34724EE750F00904266 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2129E34624EE750F00904266 /* ViewController.m */; };
+		2129E34A24EE750F00904266 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2129E34824EE750F00904266 /* Main.storyboard */; };
+		2129E34C24EE751100904266 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2129E34B24EE751100904266 /* Assets.xcassets */; };
+		2129E34F24EE751100904266 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2129E34D24EE751100904266 /* LaunchScreen.storyboard */; };
+		2129E35224EE751100904266 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2129E35124EE751100904266 /* main.m */; };
+		2129E35C24EE751100904266 /* Mach_OdemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2129E35B24EE751100904266 /* Mach_OdemoTests.m */; };
+		2129E36724EE751100904266 /* Mach_OdemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2129E36624EE751100904266 /* Mach_OdemoUITests.m */; };
+		2129E37624EE76C000904266 /* TestAnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2129E37524EE76C000904266 /* TestAnotation.m */; };
+		2129E37924EE8A3A00904266 /* CustomModelClass01.m in Sources */ = {isa = PBXBuildFile; fileRef = 2129E37824EE8A3A00904266 /* CustomModelClass01.m */; };
+		2129E37C24EE8A6200904266 /* CustomModelService01.m in Sources */ = {isa = PBXBuildFile; fileRef = 2129E37B24EE8A6200904266 /* CustomModelService01.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2129E35824EE751100904266 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2129E33424EE750F00904266 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2129E33B24EE750F00904266;
+			remoteInfo = "Mach-Odemo";
+		};
+		2129E36324EE751100904266 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2129E33424EE750F00904266 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2129E33B24EE750F00904266;
+			remoteInfo = "Mach-Odemo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2129E33C24EE750F00904266 /* Mach-Odemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mach-Odemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2129E33F24EE750F00904266 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2129E34024EE750F00904266 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2129E34224EE750F00904266 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		2129E34324EE750F00904266 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		2129E34524EE750F00904266 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2129E34624EE750F00904266 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2129E34924EE750F00904266 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2129E34B24EE751100904266 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2129E34E24EE751100904266 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2129E35024EE751100904266 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2129E35124EE751100904266 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2129E35724EE751100904266 /* Mach-OdemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mach-OdemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2129E35B24EE751100904266 /* Mach_OdemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mach_OdemoTests.m; sourceTree = "<group>"; };
+		2129E35D24EE751100904266 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2129E36224EE751100904266 /* Mach-OdemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mach-OdemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2129E36624EE751100904266 /* Mach_OdemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mach_OdemoUITests.m; sourceTree = "<group>"; };
+		2129E36824EE751100904266 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2129E37424EE76C000904266 /* TestAnotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestAnotation.h; sourceTree = "<group>"; };
+		2129E37524EE76C000904266 /* TestAnotation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestAnotation.m; sourceTree = "<group>"; };
+		2129E37724EE8A3A00904266 /* CustomModelClass01.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomModelClass01.h; sourceTree = "<group>"; };
+		2129E37824EE8A3A00904266 /* CustomModelClass01.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomModelClass01.m; sourceTree = "<group>"; };
+		2129E37A24EE8A6200904266 /* CustomModelService01.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomModelService01.h; sourceTree = "<group>"; };
+		2129E37B24EE8A6200904266 /* CustomModelService01.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomModelService01.m; sourceTree = "<group>"; };
+		2129E37D24EE8AF900904266 /* CustomProtocal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomProtocal.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2129E33924EE750F00904266 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2129E35424EE751100904266 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2129E35F24EE751100904266 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2129E33324EE750F00904266 = {
+			isa = PBXGroup;
+			children = (
+				2129E33E24EE750F00904266 /* Mach-Odemo */,
+				2129E35A24EE751100904266 /* Mach-OdemoTests */,
+				2129E36524EE751100904266 /* Mach-OdemoUITests */,
+				2129E33D24EE750F00904266 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2129E33D24EE750F00904266 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2129E33C24EE750F00904266 /* Mach-Odemo.app */,
+				2129E35724EE751100904266 /* Mach-OdemoTests.xctest */,
+				2129E36224EE751100904266 /* Mach-OdemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2129E33E24EE750F00904266 /* Mach-Odemo */ = {
+			isa = PBXGroup;
+			children = (
+				2129E33F24EE750F00904266 /* AppDelegate.h */,
+				2129E34024EE750F00904266 /* AppDelegate.m */,
+				2129E34224EE750F00904266 /* SceneDelegate.h */,
+				2129E34324EE750F00904266 /* SceneDelegate.m */,
+				2129E34524EE750F00904266 /* ViewController.h */,
+				2129E34624EE750F00904266 /* ViewController.m */,
+				2129E37D24EE8AF900904266 /* CustomProtocal.h */,
+				2129E37724EE8A3A00904266 /* CustomModelClass01.h */,
+				2129E37824EE8A3A00904266 /* CustomModelClass01.m */,
+				2129E37A24EE8A6200904266 /* CustomModelService01.h */,
+				2129E37B24EE8A6200904266 /* CustomModelService01.m */,
+				2129E37424EE76C000904266 /* TestAnotation.h */,
+				2129E37524EE76C000904266 /* TestAnotation.m */,
+				2129E34824EE750F00904266 /* Main.storyboard */,
+				2129E34B24EE751100904266 /* Assets.xcassets */,
+				2129E34D24EE751100904266 /* LaunchScreen.storyboard */,
+				2129E35024EE751100904266 /* Info.plist */,
+				2129E35124EE751100904266 /* main.m */,
+			);
+			path = "Mach-Odemo";
+			sourceTree = "<group>";
+		};
+		2129E35A24EE751100904266 /* Mach-OdemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2129E35B24EE751100904266 /* Mach_OdemoTests.m */,
+				2129E35D24EE751100904266 /* Info.plist */,
+			);
+			path = "Mach-OdemoTests";
+			sourceTree = "<group>";
+		};
+		2129E36524EE751100904266 /* Mach-OdemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2129E36624EE751100904266 /* Mach_OdemoUITests.m */,
+				2129E36824EE751100904266 /* Info.plist */,
+			);
+			path = "Mach-OdemoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2129E33B24EE750F00904266 /* Mach-Odemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2129E36B24EE751100904266 /* Build configuration list for PBXNativeTarget "Mach-Odemo" */;
+			buildPhases = (
+				2129E33824EE750F00904266 /* Sources */,
+				2129E33924EE750F00904266 /* Frameworks */,
+				2129E33A24EE750F00904266 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mach-Odemo";
+			productName = "Mach-Odemo";
+			productReference = 2129E33C24EE750F00904266 /* Mach-Odemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2129E35624EE751100904266 /* Mach-OdemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2129E36E24EE751100904266 /* Build configuration list for PBXNativeTarget "Mach-OdemoTests" */;
+			buildPhases = (
+				2129E35324EE751100904266 /* Sources */,
+				2129E35424EE751100904266 /* Frameworks */,
+				2129E35524EE751100904266 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2129E35924EE751100904266 /* PBXTargetDependency */,
+			);
+			name = "Mach-OdemoTests";
+			productName = "Mach-OdemoTests";
+			productReference = 2129E35724EE751100904266 /* Mach-OdemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2129E36124EE751100904266 /* Mach-OdemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2129E37124EE751100904266 /* Build configuration list for PBXNativeTarget "Mach-OdemoUITests" */;
+			buildPhases = (
+				2129E35E24EE751100904266 /* Sources */,
+				2129E35F24EE751100904266 /* Frameworks */,
+				2129E36024EE751100904266 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2129E36424EE751100904266 /* PBXTargetDependency */,
+			);
+			name = "Mach-OdemoUITests";
+			productName = "Mach-OdemoUITests";
+			productReference = 2129E36224EE751100904266 /* Mach-OdemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2129E33424EE750F00904266 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = zhaohongbo;
+				TargetAttributes = {
+					2129E33B24EE750F00904266 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					2129E35624EE751100904266 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 2129E33B24EE750F00904266;
+					};
+					2129E36124EE751100904266 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 2129E33B24EE750F00904266;
+					};
+				};
+			};
+			buildConfigurationList = 2129E33724EE750F00904266 /* Build configuration list for PBXProject "Mach-Odemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2129E33324EE750F00904266;
+			productRefGroup = 2129E33D24EE750F00904266 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2129E33B24EE750F00904266 /* Mach-Odemo */,
+				2129E35624EE751100904266 /* Mach-OdemoTests */,
+				2129E36124EE751100904266 /* Mach-OdemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2129E33A24EE750F00904266 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2129E34F24EE751100904266 /* LaunchScreen.storyboard in Resources */,
+				2129E34C24EE751100904266 /* Assets.xcassets in Resources */,
+				2129E34A24EE750F00904266 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2129E35524EE751100904266 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2129E36024EE751100904266 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2129E33824EE750F00904266 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2129E34724EE750F00904266 /* ViewController.m in Sources */,
+				2129E34124EE750F00904266 /* AppDelegate.m in Sources */,
+				2129E37924EE8A3A00904266 /* CustomModelClass01.m in Sources */,
+				2129E37C24EE8A6200904266 /* CustomModelService01.m in Sources */,
+				2129E35224EE751100904266 /* main.m in Sources */,
+				2129E37624EE76C000904266 /* TestAnotation.m in Sources */,
+				2129E34424EE750F00904266 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2129E35324EE751100904266 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2129E35C24EE751100904266 /* Mach_OdemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2129E35E24EE751100904266 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2129E36724EE751100904266 /* Mach_OdemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2129E35924EE751100904266 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2129E33B24EE750F00904266 /* Mach-Odemo */;
+			targetProxy = 2129E35824EE751100904266 /* PBXContainerItemProxy */;
+		};
+		2129E36424EE751100904266 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2129E33B24EE750F00904266 /* Mach-Odemo */;
+			targetProxy = 2129E36324EE751100904266 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2129E34824EE750F00904266 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2129E34924EE750F00904266 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2129E34D24EE751100904266 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2129E34E24EE751100904266 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2129E36924EE751100904266 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2129E36A24EE751100904266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2129E36C24EE751100904266 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NKUDCJR2N3;
+				INFOPLIST_FILE = "Mach-Odemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhaohongbo.Mach-Odemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2129E36D24EE751100904266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NKUDCJR2N3;
+				INFOPLIST_FILE = "Mach-Odemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhaohongbo.Mach-Odemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2129E36F24EE751100904266 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NKUDCJR2N3;
+				INFOPLIST_FILE = "Mach-OdemoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhaohongbo.Mach-OdemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mach-Odemo.app/Mach-Odemo";
+			};
+			name = Debug;
+		};
+		2129E37024EE751100904266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NKUDCJR2N3;
+				INFOPLIST_FILE = "Mach-OdemoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhaohongbo.Mach-OdemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mach-Odemo.app/Mach-Odemo";
+			};
+			name = Release;
+		};
+		2129E37224EE751100904266 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NKUDCJR2N3;
+				INFOPLIST_FILE = "Mach-OdemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhaohongbo.Mach-OdemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mach-Odemo";
+			};
+			name = Debug;
+		};
+		2129E37324EE751100904266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NKUDCJR2N3;
+				INFOPLIST_FILE = "Mach-OdemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zhaohongbo.Mach-OdemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mach-Odemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2129E33724EE750F00904266 /* Build configuration list for PBXProject "Mach-Odemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2129E36924EE751100904266 /* Debug */,
+				2129E36A24EE751100904266 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2129E36B24EE751100904266 /* Build configuration list for PBXNativeTarget "Mach-Odemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2129E36C24EE751100904266 /* Debug */,
+				2129E36D24EE751100904266 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2129E36E24EE751100904266 /* Build configuration list for PBXNativeTarget "Mach-OdemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2129E36F24EE751100904266 /* Debug */,
+				2129E37024EE751100904266 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2129E37124EE751100904266 /* Build configuration list for PBXNativeTarget "Mach-OdemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2129E37224EE751100904266 /* Debug */,
+				2129E37324EE751100904266 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2129E33424EE750F00904266 /* Project object */;
+}
