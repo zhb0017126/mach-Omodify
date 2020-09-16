@@ -19,11 +19,10 @@
 
 #define CustomMode(name) \
 class custom; char * k##name##_mod CustomData(CustomModes) = ""#name"";
-
+//
 #define CustomModeService(servicename,impl) \
 class custom; char * k##servicename##_service CustomData(CustomServices) = "{ \""#servicename"\" : \""#impl"\"}";
-// data长度有限制 CustomServices 作为Data名称最高不能太长
-
+// data长度有限制 最长16个字符串 CustomServices 作为Data名称最高不能太长
 
 
 NS_ASSUME_NONNULL_BEGIN

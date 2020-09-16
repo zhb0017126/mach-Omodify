@@ -26,6 +26,7 @@ NSArray<NSString *>* readeDataInfomation(char *sectionName,const struct mach_hea
 
 static void dyld_callback(const struct mach_header *mhp, intptr_t vmaddr_slide)
 {
+    /**多次获取，只有在指定的Section 为0*/
     NSArray *mods = readeDataInfomation(customSectionName, mhp);
     for (NSString *modName in mods) {
         Class cls;
